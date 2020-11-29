@@ -1,10 +1,13 @@
 import React from 'react';
+import Button from './components/Button';
 
-function App() {
-  return<h1>
-    This is App just added eslint his is App just added eslint his is App just
-    added eslint adrtwertwertwetwetwetwertwe
-  </h1>
-}
+
+const App = () => (
+  <div>
+  
+    <Button color="pink">Hello world</Button>
+
+  </div>
+);
 
 export default App;
