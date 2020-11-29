@@ -11,6 +11,9 @@
     },
     "rules": {
       "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-      "prettier/prettier": "error" 
+      "react/jsx-props-no-spreading": ["error", {"custom": "ignore"}], /*allows speading props*/
+      "react/destructuring-assignment": ["error", "always"],
+      "prettier/prettier": "error"
+      
     }
   }
