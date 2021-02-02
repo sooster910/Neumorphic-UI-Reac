@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React from 'react';
 import styled from 'styled-components';
 import propTypes from 'prop-types';
@@ -37,21 +38,16 @@ const StyledButton = styled.button`
   }
 `;
 
-const Button = ({ children, ...rest }) => {
-  return (
-    <StyledButton {...rest}>
-      {children}
-    </StyledButton>
-  );
+const Button = ({ title,...rest }) => {
+  return <StyledButton {...rest}>{title}</StyledButton>;
 };
 
 Button.propTypes = {
-  children: propTypes.string,
-  color: propTypes.string,
+  title: propTypes.string,
 };
 
 Button.defaultProps = {
-  children: 'Button',
+  title: 'Button',
 };
 
 export default Button;

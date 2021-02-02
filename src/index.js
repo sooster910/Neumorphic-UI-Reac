@@ -1,6 +1,11 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
+// import Button from './components/Button';
+// import ProgressCircle from './components/ProgressCircle';
+
+// module.exports={ProgressCircle, Button}
+
 import App from './App';
 
 const app = <App />;
-render(app, document.getElementById('app'));
+ReactDOM.render(app, document.getElementById('app'));

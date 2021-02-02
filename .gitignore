@@ -25,4 +25,8 @@ chrome-user-data
 .vscode
 *.swp
 *.swo
-/src/__tests__/__snapshots__/
+__tests__/__snapshots__/
+src/components/test.md
+src/components/ProgressTest.js
+src/components/PieChart.js
+src/components/Button.js
