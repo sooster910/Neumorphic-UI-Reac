@@ -42,13 +42,13 @@ exports[`<Button /> matches snapshot 1`] = `
 }
 
 <Button
-  title="Hi"
+  title="HIHI"
 >
   <styled.button>
     <button
       className="c0"
     >
-      Hi
+      HIHI
     </button>
   </styled.button>
 </Button>

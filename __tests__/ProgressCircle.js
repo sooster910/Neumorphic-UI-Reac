@@ -11,7 +11,7 @@ import 'jest-styled-components';
 
 describe('<Button />', () => {
   it('matches snapshot', () => {
-    const wrapper = mount(<Button title="Hi"/>);
+    const wrapper = mount(<Button title="HIHI"/>);
     expect(wrapper).toMatchSnapshot();
   });
 });
